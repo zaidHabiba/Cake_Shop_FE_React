@@ -1,0 +1,24 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 0%;
+}
+
+.login-container .segment {
+    min-width: 350px;
+    max-width: 350px;
+}
+
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0%;
+}
+
+.register-container .segment {
+    min-width: 320px;
+    width: 50%;
+    max-width: 50%;
+}

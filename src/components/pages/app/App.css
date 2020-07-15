@@ -1,0 +1,32 @@
+.page-wrapper {
+}
+
+.wave {
+    background: linear-gradient(to bottom, #ffffff, #e4e4e4);
+    height: 65px;
+    position: relative;
+}
+
+.wave::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-repeat: repeat;
+    height: 10px;
+    background-size: 20px 20px;
+    background-image: radial-gradient(circle at 10px -5px, transparent 12px, #9ed0d3 13px);
+}
+
+.wave::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-repeat: repeat;
+    height: 15px;
+    background-size: 40px 20px;
+    background-image: radial-gradient(circle at 10px 15px, #9ed0d3 12px, transparent 13px);
+}

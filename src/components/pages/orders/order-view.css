@@ -1,0 +1,83 @@
+.order-container {
+    padding: 50px 5% 5%;
+    margin: 50px 5% 10%;
+}
+
+.item {
+    background: white !important;
+    border-radius: 15px !important;
+    padding: 15px !important;
+    margin-bottom: 25px !important;
+    margin-top: 25px !important;
+}
+
+.content {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    color: black !important;
+}
+
+
+.order-section {
+    display: flex;
+}
+
+.container-order {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+.image-container img{
+    width: 60% !important;
+    max-width: 60% !important;
+}
+
+.info-label {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+.user-info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.no-order-msg {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 250px;
+    align-items: center;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.no-order-msg p {
+    text-align: center;
+    align-self: center;
+    font-weight: 600;
+    font-size: 2.5em;
+    width: 100%;
+    height: 200px;
+}
